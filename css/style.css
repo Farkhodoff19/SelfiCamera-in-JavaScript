@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: #457fca;
+    background: -webkit-linear-gradient(to right,#5961c8,#457fca);
+    background: linear-gradient(to right,#5961c8,#457fca);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.camera {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
